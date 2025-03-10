@@ -50,7 +50,10 @@ INSTALLED_APPS = [
 REST_FRAMEWORK = {
     'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend'],
 }
-DATABASE_URL = ['postgresql://postgres:OOnNjZnlimqOtGHGSoTNMKpudeoyHGDw@interchange.proxy.rlwy.net:51273/railway']
+
+DATABASES = {
+    'default': dj_database_url.parse('postgresql://postgres:OOnNjZnlimqOtGHGSoTNMKpudeoyHGDw@interchange.proxy.rlwy.net:51273/railway')
+}
 
 # DATABASES = {
 #     'default': {
