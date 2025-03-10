@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-96=rxm6zj5p9w(7kznff086moczor-5$u!18nnvtazy6#=*=_9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['web-production-92ed.up.railway.app']
+ALLOWED_HOSTS = ['web-production-92ed.up.railway.app','users-front-ecru.vercel.app']
 
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
