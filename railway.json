@@ -1,0 +1,10 @@
+{
+    "build": {
+      "builder": "Nixpacks",
+      "nixpacksPlan": {
+        "packages": ["python311", "pip"],
+        "startCommand": "gunicorn apiusers.wsgi:application --bind 0.0.0.0:$PORT"
+      }
+    }
+  }
+  
