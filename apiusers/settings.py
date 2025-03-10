@@ -69,7 +69,7 @@ DATABASES = {
 # Durante desarrollo puedes permitir todos los orígenes
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # Agregar el dominio del frontend
-    "https://tu-dominio.com"
+    "https://users-front-git-main-carlos-projects-51ca290e.vercel.app"
 ]
 
 MIDDLEWARE = [
